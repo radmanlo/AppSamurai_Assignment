@@ -75,6 +75,7 @@ url = "https://prod-storyly-media.s3.eu-west-1.amazonaws.com/test-scenarios/samp
 json_dump = urllib.request.urlopen(url)
 cost4 = cost_calc(json_dump.read())
 
+# prints of cost of each sample
 print("Cost1: ", cost1)
 print("Cost2: ", cost2)
 print("Cost3: ", cost3)
